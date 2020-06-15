@@ -31,4 +31,4 @@ jobs:
       run: npm install -g surge
         
     - name: deploying on surge
-      run: surge ./ staticwebpage.surge.sh --token ${{secrets.SURGE_TOKEN}}   
+      run: surge ./ disturbed-silver.surge.sh.surge.sh --token ${{secrets.SURGE_TOKEN}}   
